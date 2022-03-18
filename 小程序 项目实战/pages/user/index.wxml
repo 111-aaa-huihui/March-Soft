@@ -1,0 +1,41 @@
+<view class="head">
+    <view wx:if="{{userinfo.avatarUrl}}" class="head_content">
+        <image class="big" src="{{userinfo.avatarUrl}}" />
+        <view class="kuang">
+            <image class="small" src="{{userinfo.avatarUrl}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" />
+            <view class="name">{{userinfo.nickName}}</view>
+        </view>
+    </view>
+    <view class="button" wx:else>
+        <navigator class="" target="" url="/pages/login/index" hover-class="navigator-hover" open-type="navigate">
+            登录
+        </navigator>
+    </view>
+</view>
+<view class="content">
+    <view class="c1">
+        <view class="d1">
+            <view>0</view>
+            <view>收藏的店铺</view>
+        </view>
+        <view class="d1">
+            <view>0</view>
+            <view>收藏的店铺</view>
+        </view>
+        <view class="d1">
+            <view>0</view>
+            <view>收藏的店铺</view>
+        </view>
+        <view class="d1">
+            <view>0</view>
+            <view>收藏的店铺</view>
+        </view>
+    </view>
+    <view class="data">
+        <view>我的订单</view>
+        <view>收获地址</view>
+        <view class="bottomline">联系客服</view>
+        <view class="bottomline">意见反馈</view>
+        <view class="bottomline">关于我们</view>
+    </view>
+</view>

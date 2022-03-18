@@ -1,0 +1,26 @@
+<view class="catagory">
+  <Searchinput></Searchinput>
+  <view class="content">
+    <!-- scroll-y 或x  父亲一定要有高度！！！！！ -->
+    <scroll-view class="left  " scroll-y="{{true}}">
+      <view data-index="{{index}}" class="menu_left {{index===currentIndex?'active':''}}" wx:for="{{leftList}}" wx:key="index" bindtap="handleItemTap">
+        {{item}}
+      </view>
+    </scroll-view>
+    <scroll-view scroll-top="{{scrollNumber}}" class="right" scroll-y="{{true}}">
+      <view class="menu_right" wx:for="{{rightList}}" wx:for-item="item1" wx:for-index="index1" wx:key="index1">
+        <view class="title">
+          <text class="xg">/</text>
+          <text>{{item1.cat_name}}</text>
+          <text class="xg">/</text>
+        </view>
+        <view class="list">
+          <navigator wx:for="{{item1.children}}" wx:for-item="item2" wx:for-index="index2" wx:key="cat_id" url="/pages/goods_list/index?cid={{item2.cat_id}}">
+            <image src="{{item2.cat_icon}}" mode="widthFix" />
+            <view class="goods_name">{{item2.cat_name}}</view>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

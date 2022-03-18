@@ -1,0 +1,52 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "疾病搜索中心"
+			}
+		},
+		{
+			"path": "pages/insurance/insurance/insurance",
+			"style": {
+				"navigationBarBackgroundColor": "#2fb0fc",
+				"navigationBarTextStyle": "white",
+				"backgroundTextStyle": "light",
+				"navigationBarTitleText": "友情指导"
+			}
+		},
+		{
+			"path": "pages/prolem/prolem",
+			"style": {
+				"navigationBarTitleText": "相关症状"
+			}
+		},
+		{
+			"path": "pages/suggestion/suggestion",
+			"style": {
+				"navigationBarTitleText": "核保意见书",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2AB2FE"
+			}
+		},
+		{
+			"path": "pages/check/check",
+			"style": {
+				"navigationBarTitleText": "核查健康情况"
+			}
+		}
+	],
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "预核保",
+		"backgroundColor": "#f1f2f3"
+	},
+	"subPackages": []
+}

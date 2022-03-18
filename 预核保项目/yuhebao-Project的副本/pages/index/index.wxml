@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <image class="cover" src="/static/images/cover.png" mode="widthFix"></image>
+  <view>
+	  <view class="introduction">
+      <view>人工智能大数据算法，一分钟完成疾病核保问卷</view>
+      <view>给您安心便捷的投保体验</view>
+	  </view>
+    <button class="enter" catchtap="toCheak">立即核保</button>
+    <view class="freeDuty">
+      <text>免责声明：核保结果今仅供参考，不作为保险公司最终结论</text>
+    </view>
+  </view>
+</view>

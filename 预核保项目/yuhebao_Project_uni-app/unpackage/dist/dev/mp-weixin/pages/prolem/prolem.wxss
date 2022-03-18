@@ -1,0 +1,272 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 问题页样式 */
+/* pages/prolem/prolem.wxss */
+page {
+    height: 100%;
+}
+.proContent {
+    height: 100%;
+}
+.header {
+    display: flex;
+    height: 140rpx;
+    justify-content: space-around;
+    margin: 10rpx auto;
+    background-color: #f5f6f7;
+}
+.finishFirst {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+.finishSecond {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #3da0ff;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+.finishthird {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+/* 问题中部 */
+.problemContent {
+    display: flex;
+    flex-direction: column;
+    height: 600rpx;
+    margin: 0 40rpx;
+}
+.problemTilte {
+    height: 120rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10rpx 0;
+    padding-bottom: 10rpx;
+}
+.wanshan {
+    height: 100rpx;
+    font-size: 50rpx;
+    margin: 5rpx 0;
+}
+.zhunque {
+    font-size: 28rpx;
+    color: #747677;
+}
+.firstIllness {
+    margin-top: 5rpx;
+}
+.firstIllnessTitle {
+    font-size: 36rpx;
+    margin: 15rpx;
+    color: #686e6e;
+}
+.illnessName {
+    color: #3da0ff;
+    margin-bottom: 10rpx;
+}
+.radio {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+}
+.firstBor {
+    height: 790rpx;
+    padding-left: 20rpx;
+    padding-top: 5rpx;
+    background-color: #fefefe;
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.1);
+}
+.firstProblem {
+    margin-top: 10rpx;
+    font-size: 28rpx;
+    /* margin-left: 15rpx; */
+}
+radio .wx-radio-input.wx-radio-input-checked {
+    border-color: #3da0ff !important;
+}
+.radio .wx-radio-input.wx-radio-input-checked::before {
+    content: '';
+    width: 36rpx;
+    height: 36rpx;
+    border-radius: 50%;
+    background-color: #3da0ff;
+}
+.next {
+    width: 224rpx !important;
+    padding: 5rpx !important;
+    text-align: center;
+    letter-spacing: 2rpx;
+    border-radius: 46rpx;
+    font-size: 30rpx;
+    line-height: 60rpx;
+    margin: 20rpx auto;
+    padding: 0 auto;
+    color: #ffffff;
+}
+.root {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: 80rpx 0;
+    bottom: 0;
+    border-radius: 5rpx;
+    text-align: center;
+}
+.root button {
+    background-color: #d5dce3;
+}
+

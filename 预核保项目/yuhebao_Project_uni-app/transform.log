@@ -1,0 +1,36 @@
+miniprogram-to-uniapp v2 转换日志
+
+工具版本：v2.0.9
+转换模式：HBuilder X
+是否合并css：是
+项目 'yuhebao-Project的副本' 开始转换...
+sourceFolder = /Users/xiaoyunfei/Desktop/yuhebao-Project的副本
+搜索到117个文件，耗时：5ms
+
+读取json报错/Users/xiaoyunfei/Desktop/yuhebao-Project的副本/manifest.json
+
+[Tip]这里引用的全是网络字体，可能在app上面有兼容问题（如字体图标显示不出来，运行后没问题就不用管）  fileKey: static/iconfont/iconfont
+write pages.json success!
+write manifest.json success!
+write main.js success!
+
+
+统计信息：
+
+vue文件数量: 7
+支付api数量: 0
+登录api数量: 0
+
+恭喜你，转换完成！
+用时: 53.101s
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+注：如有疑问，请添加QQ群(780359397、361784059、603659851)或https://github.com/zhangdaren/miniprogram-to-uniapp进行反馈！
+
+
+stdout: 
+stderr: [patch] check FrameWorks Dir
+initSingleFile: "/Users/xiaoyunfei/Library/Application Support/HBuilder X/.lock"
+read size: 96  instanceinfoII size: 96
+checkProcessRunning:[ 83260 ] time(input): "2014:33:512022" (get): "2014:33:512022"
+

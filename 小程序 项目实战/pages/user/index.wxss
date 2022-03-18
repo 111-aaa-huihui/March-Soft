@@ -1,0 +1,93 @@
+.head{
+    height: 45vh;
+    overflow: hidden;
+    position: relative;
+    background-color: burlywood;
+}
+.big{
+    height: 50vh;
+    margin-left: -3px;
+    margin-top: -2px;
+    width: 110vw;
+    filter: blur(8px);
+}
+.kuang {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%);
+    width: 40vw;
+    height: 20vh;
+    text-align: center;
+   
+}
+.small{
+    height: 60%;
+    width: 60%;
+    
+    border-radius: 50%;
+}
+.name{
+    margin-top:10px;
+    color: #fff;
+    font-size: 35rpx;
+}
+.button navigator{
+    font-size: 40rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2rpx solid  green;
+    padding: 20rpx;
+    border-radius: 10rpx;
+}
+.content{
+    height: 70vh;
+    background-color: #ECEDE8;
+    position: relative;
+}
+.content .c1{
+    position: absolute;
+    width: 90%;
+    height: 100rpx;
+    top:-50rpx ;
+    left: 50%;
+    transform:translateX(-50%);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1 view{
+    flex: 1;
+    text-align: center;
+
+}
+.data{
+    background-color: #ECEDE8;
+    position: relative;
+    top: 60rpx;
+        width: 90%;
+        left: 50%;
+        transform:translateX(-50%);
+  
+}
+.message{
+    display: flex;
+    height: 60rpx;
+    
+}
+.message view{
+    flex: 1;
+}
+.data view {
+    height: 100rpx;
+    line-height: 100rpx;
+        padding-left: 10rpx;
+    background-color: #fff;
+    margin: 10rpx 0;
+}
+.bottomline{
+    border-bottom: 2px solid #ccc;
+}

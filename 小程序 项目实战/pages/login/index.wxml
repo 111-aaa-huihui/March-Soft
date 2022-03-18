@@ -1,0 +1,2 @@
+<button type="primary" plain open-type="getUserProfile" bindtap="getUserProfile"> 
+    登录</button>

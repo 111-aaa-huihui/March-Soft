@@ -1,0 +1,30 @@
+/* index样式 */
+/* pages/index/index.wxss */
+.cover{
+  width: 100%;
+  margin: 0 auto;
+}
+.introduction{
+	text-align: center;
+	color: #3DA0FF;
+	font-size: 26rpx;
+	line-height: 60rpx;
+}
+.enter{
+	background-color: #3DA0FF;
+	text-align: center;
+	letter-spacing: 2rpx;
+	border-radius: 46rpx;
+	font-size: 35rpx;
+	line-height: 60rpx;
+	margin: 20rpx auto;
+	padding: 0 auto;
+	color: #ffffff;
+}
+.freeDuty{
+	text-align: center;
+	font-size: 20rpx;
+	
+	line-height: 40rpx;
+	color: #727E98;
+}

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/insurance/insurance/insurance",
+    "pages/prolem/prolem",
+    "pages/suggestion/suggestion",
+    "pages/check/check"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "预核保",
+    "backgroundColor": "#f1f2f3"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

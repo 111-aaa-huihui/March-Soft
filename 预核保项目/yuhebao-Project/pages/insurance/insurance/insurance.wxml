@@ -1,0 +1,187 @@
+<!--pages/insurance/insurance/insurance.wxml-->
+<view class="guidance">
+  <view class="imgTitle">
+  <image class="img" src="/static/images/advice.png"></image>
+  </view>
+
+  <!-- 投保时建议 -->
+  <view class="notice">
+  <view class="noticeProduct">可投保产品</view>
+  <text class="iconfont icon-jinggao1"> </text>
+  <text class="noticeText">投保时，请注意健康告知中其他疾病的约束条件！</text>
+  </view>
+<!--   三个列表 -->
+<view class="contentList">
+	<swiper class="topListSwiper">
+		<swiper-item>
+    <view class="swiperItem">
+      <veiw class="titleCheck">重疾险&防癌检</veiw>
+      <view class="iconfont icon-blt_zuohua"></view>
+			<view class="contentItem">
+				<view class="protectNameTop">安联健康</view>
+        <view class="protectNameRoot">
+        <view class="point">健康险</view>
+        <view class="priace">325元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">星悦</view>
+        <view class="protectNameRoot">
+        <view class="point">高性价比</view>
+        <view class="priace">665元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">华贵大麦</view>
+        <view class="protectNameRoot">
+        <view class="point">长寿险</view>
+        <view class="priace">785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+            <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+    </view>
+		</swiper-item>
+		<swiper-item>
+    <view class="swiperItem">
+      <veiw class="titleCheck">医疗险</veiw>
+      <view class="iconfont icon-blt_zuohua"></view>
+			<view class="contentItem">
+				<view class="protectNameTop">头脑发热</view>
+        <view class="protectNameRoot">
+        <view class="point">医用险</view>
+        <view class="priace">170元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">星悦</view>
+        <view class="protectNameRoot">
+        <view class="point">高性价比</view>
+        <view class="priace">665元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">华贵大麦</view>
+        <view class="protectNameRoot">
+        <view class="point">长寿险</view>
+        <view class="priace">785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+            <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+    </view>
+		</swiper-item>
+		<swiper-item>
+    <view class="swiperItem">
+      <veiw class="titleCheck">人寿险</veiw>
+			<view class="contentItem">
+				<view class="protectNameTop">人口老龄化</view>
+        <view class="protectNameRoot">
+        <view class="point">年龄险</view>
+        <view class="priace">367元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">星悦</view>
+        <view class="protectNameRoot">
+        <view class="point">高性价比</view>
+        <view class="priace">665元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">华贵大麦</view>
+        <view class="protectNameRoot">
+        <view class="point">长寿险</view>
+        <view class="priace">785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+      <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+            <view class="contentItem">
+				<view class="protectNameTop">康复保</view>
+        <view class="protectNameRoot">
+        <view class="point">医疗险</view>
+        <view class="priace">1785元起</view>
+        </view>
+			</view>
+    </view>
+		</swiper-item>
+	</swiper>
+</view>
+
+<!-- 咨询专家 -->
+<view class="notice bottom">
+  <view class="noticeProduct">咨询核保专家</view>
+  <text class="iconfont icon-icon-user"> </text>
+  <text class="noticeText">邀请特高级专家为您服务！</text>
+  </view>
+  <view class="qrcodeBottom">
+  <image src="/static/images/qrcode.png" class="qrcode"></image>
+  </view>
+
+
+
+
+
+  <!-- <view class="scoll">
+    <view class="scollTextFirst">重疾险&防癌检</view>
+    <text>|</text>
+    <view class="scollText2">医疗险</view>
+    <text>|</text>
+    <view class="scollText3">人寿险</view>
+  </view>
+  <view>
+    <text>咨询核保专家</text>
+    <view>二维码</view>
+  </view> -->
+</view>

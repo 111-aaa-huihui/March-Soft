@@ -1,0 +1,279 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 核保意见页面的样式 */
+/* pages/suggestion/suggestion.wxss */
+page {
+    height: 100%;
+}
+.header {
+    display: flex;
+    height: 140rpx;
+    justify-content: space-around;
+    margin: 10rpx auto;
+    background-color: #f5f6f7;
+}
+.finishFirst {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+.finishSecond {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+.finishthird {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #3da0ff;
+    font-size: 26rpx;
+    margin: 30rpx auto;
+}
+.addName {
+    height: 30rpx;
+    margin-top: 15rpx;
+}
+.finsh {
+    height: 30rpx;
+    margin-top: 15rpx;
+}
+.suggestion {
+    height: 30rpx;
+    margin-top: 13rpx;
+}
+.detailTableTop {
+    height: 120rpx;
+    margin: 20rpx 20rpx;
+    padding-left: 20rpx;
+    background-color: #fefefe;
+    border-radius: 24rpx;
+    box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.1);
+}
+.detailTitle {
+    font-size: 36rpx;
+    padding: 8rpx 0;
+    padding-bottom: 0;
+    margin: 5rpx;
+    color: #3f434e;
+}
+.detailInformation {
+    width: 90%;
+    height: 48rpx;
+    line-height: 48rpx;
+    font-size: 27rpx;
+    border-radius: 2px;
+}
+.detailTableContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rpx;
+}
+.detailTableContentFirst {
+    display: flex;
+    flex-direction: column;
+    height: 120rpx;
+    padding-top: 45rpx;
+}
+.desc {
+    padding-bottom: 6rpx;
+}
+.hebaoDesc {
+    padding: 10rpx 0;
+}
+.station {
+    font-size: 28rpx;
+    color: #b3b4b9;
+}
+.detailTableContentSecond {
+    display: flex;
+    flex-direction: column;
+    height: 500rpx;
+    margin-top: 20rpx;
+}
+.contentFirst {
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0;
+}
+.contentSecond {
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0;
+}
+.contentThird {
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0;
+    letter-spacing: 3rpx;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.smallTitle {
+    font-size: 28rpx;
+    color: #131313;
+}
+.smallText {
+    font-size: 24rpx;
+    color: #b3b4b9;
+}
+.icon-yiyuan1 {
+    padding-top: 6rpx;
+    color: rgb(7, 147, 240);
+}
+.icon-shiyongwendang {
+    padding-top: 18rpx;
+    color: rgb(7, 147, 240);
+}
+.detailTableRoot {
+    display: flex;
+    flex-direction: row;
+}
+.buttonagain {
+    width: 224rpx !important;
+    padding: 5rpx !important;
+    background-color: #3da0ff;
+    text-align: center;
+    letter-spacing: 2rpx;
+    border-radius: 46rpx;
+    font-size: 30rpx;
+    line-height: 60rpx;
+    margin: 20rpx auto;
+    padding: 0 auto;
+    color: #ffffff;
+}
+.buttontou {
+    width: 224rpx !important;
+    padding: 5rpx !important;
+    background-color: #3da0ff;
+    text-align: center;
+    letter-spacing: 2rpx;
+    border-radius: 46rpx;
+    font-size: 30rpx;
+    line-height: 60rpx;
+    margin: 20rpx auto;
+    padding: 0 auto;
+    color: #ffffff;
+}
+
